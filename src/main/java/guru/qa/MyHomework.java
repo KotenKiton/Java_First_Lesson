@@ -24,8 +24,6 @@ public class MyHomework {
         System.out.println("После целочисленного деления x и y мы получили: "+ d);
         System.out.println("После взятия отстатка от деления x и y мы получили: "+ e);
 
-        //Else if - может быть сколько угодно друг за другом.
-
         if (x > y) {
             System.out.println("x > y");
         }else{

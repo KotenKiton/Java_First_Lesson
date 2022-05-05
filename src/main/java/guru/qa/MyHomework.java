@@ -60,7 +60,14 @@ public class MyHomework {
             case"John":
                 System.out.println("Бан!");
         }
-            int numone = Byte.MAX_VALUE + 2;
+            int num13 = -3333;
+            float afloat = 3.3f; // флоат больше инта! хотя оба 4 байта занимают.
+            System.out.println("сложение разных типов данных"+ (num13+afloat));
+
+
+
+
+            int numone = Byte.MAX_VALUE + 1;
             System.out.println("numone");
             int numtwo = Byte.MIN_VALUE - 1;
             System.out.println("numtwo");

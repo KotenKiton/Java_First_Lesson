@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class MyHomework {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         int x = 6;
         int y = 3;
@@ -15,72 +15,62 @@ public class MyHomework {
         int d = x / y;
         int e = x % y;
 
-
         String name = "Павел";
         System.out.println("Отчёт о работе программы:");
-        System.out.println("После сложения  x и y мы получили: "+ a);
-        System.out.println("После вычитания x и y мы получили: "+ b);
-        System.out.println("После умножения x и y мы получили: "+ c);
-        System.out.println("После целочисленного деления x и y мы получили: "+ d);
-        System.out.println("После взятия отстатка от деления x и y мы получили: "+ e);
+        System.out.println("После сложения  x и y мы получили: " + a);
+        System.out.println("После вычитания x и y мы получили: " + b);
+        System.out.println("После умножения x и y мы получили: " + c);
+        System.out.println("После целочисленного деления x и y мы получили: " + d);
+        System.out.println("После взятия отстатка от деления x и y мы получили: " + e);
 
         if (x > y) {
             System.out.println("x > y");
-        }else{
+        } else {
             System.out.println("x < y");
         }
-        if (x >= y){
+        if (x >= y) {
             System.out.println("x >= y");
-        }else{
+        } else {
             System.out.println("x <= y");
         }
 
-        if ((a > b) && (b < c) ||(d!=e)){
+        if ((a > b) && (b < c) || (d != e)) {
             System.out.println("Логика верна");
-        }else{
+        } else {
             System.out.println("Логика неверна");
         }
 
-        if (name instanceof String){
+        if (name instanceof String) {
             System.out.println("Верное имя");
-        }else{
+        } else {
             System.out.println("Неверное имя");
         }
 
-        if (name.equals("Павел")){
+        if (name.equals("Павел")) {
             System.out.println("Привет " + name);
-        }else{
+        } else {
             System.out.println("Бан!");
         }
 
-        switch (name){
-            case"Pavel":
+        switch (name) {
+            case "Pavel":
                 System.out.println("Привет " + name);
                 break;
-            case"John":
+            case "John":
                 System.out.println("Бан!");
+                break;
         }
-            int num13 = -3333;
-            float afloat = 3.3f; // флоат больше инта! хотя оба 4 байта занимают.
-            System.out.println("сложение разных типов данных"+ (num13+afloat));
+        int num13 = -3333;
+        float afloat = 3.3f; // флоат больше инта! хотя оба 4 байта занимают.
+        System.out.println("сложение разных типов данных" + (num13 + afloat));
 
-            int numone = Byte.MAX_VALUE + 1;
-            System.out.println("numone");
-            int numtwo = Byte.MIN_VALUE - 1;
-            System.out.println("numtwo");
+        int numone = Byte.MAX_VALUE + 1;
+        System.out.println("numone");
+        int numtwo = Byte.MIN_VALUE - 1;
+        System.out.println("numtwo");
 
-            name = a > b ? "Pavel" : "John";
-            System.out.println("Pavel");
-
-
-
-
-
-
+        name = a > b ? "Pavel" : "John";
+        System.out.println("Pavel");
 
     }
-
-
-
-
 }
